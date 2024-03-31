@@ -8,6 +8,9 @@ file. The remaining strings in the line are considered arguments for the command
 
 # Built-in Commands 
 
+A command is considered built-in, when all the functionality is completely built into the shell (i.e., 
+without relying on an external program. All other commands, like `cat` or `ls`, call external programs to execute. Here is a list of the commands that have been implemented from scratch in this shell interface: 
+
 - `echo`
 - `cd`
 - `pwd`
