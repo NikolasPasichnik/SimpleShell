@@ -28,4 +28,6 @@ If you type `ls > out.txt`, the output of the `ls` command should be sent to the
 This shell also allows for basic command piping using the '|' character with the `[command1] | [command2]` format. 
 If you type `ls | wc -l`, the output of the `ls` command should be sent to the `wc -l`. 
 
+# How to run
 
+You can compile the SimpleShell.c file with `gcc -o SimpleShell SimpleShell.c`, and you can run the resulting and/or already existing executable with `./SimpleShell`
