@@ -17,12 +17,13 @@ without relying on an external program. All other commands, like `cat` or `ls`, 
 - `exit`
 - `fg`
 - `jobs`
-- 
 
 # Other Features 
 
 - Simple Output Redirection
 
+This shell allows for basic output redirection using the `>` character using the [source] > [destination] format. 
+If you type `ls > out.txt`, the output of the ls command should be sent to the out.txt file.
 
 - Simple Command Piping 
 
