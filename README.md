@@ -6,4 +6,22 @@ a command prompt, where the user inputs a line of command. It is responsible for
 command. The shell program assumes that the first string of the line gives the name of the executable 
 file. The remaining strings in the line are considered arguments for the command. 
 
+# Built-in Commands 
+
+- `echo`
+- `cd`
+- `pwd`
+- `exit`
+- `fg`
+- `jobs`
+- 
+
+# Other Features 
+
+- Simple Output Redirection
+
+
+- Simple Command Piping 
+
+
 
