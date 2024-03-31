@@ -1,6 +1,6 @@
 # SimpleShell
 
-This project consists of a C program that implements a shell interface which accepts user commands and executes them in a separate process. The shell program assumes that the first string of the line gives the name of the command (like ls or echo), while the remaining strings in the line are considered arguments for the command (like -l or "hello world"). This shell also allows for processes to run in the background, or concurrently, by specifying an ampersand(`&`) at the end of the command.
+This project was done as part of the McGill Operating Systems course (ECSE427). It consists of a C program that implements a shell interface that accepts user commands and executes them in a separate process. The shell program assumes that the first string of the line gives the name of the command (like ls or echo), while the remaining strings in the line are considered arguments for the command (like -l or "hello world"). This shell also allows for processes to run in the background, or concurrently, by specifying an ampersand(`&`) at the end of the command.
 
 # Built-in Commands 
 
