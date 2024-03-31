@@ -1,11 +1,10 @@
 # SimpleShell
 
-This project consists of a C program that implements a shell interface that accepts user commands and executes each command in a separate process. This simple shell provides a command prompt, where the user inputs a line of command. It is responsible for executing the command. The shell program assumes that the first string of the line gives the name of the executable file. The remaining strings in the line are considered arguments for the command. 
+This project consists of a C program that implements a shell interface which accepts user commands and executes them in a separate process. The shell program assumes that the first string of the line gives the name of the command (like ls or echo), while the remaining strings in the line are considered arguments for the command (like -l or "hello world"). This shell also allows for processes to run in the background, or concurrently, by specifying an ampersand(`&`) at the end of the command.
 
 # Built-in Commands 
 
-A command is considered built-in, when all the functionality is completely built into the shell (i.e., 
-without relying on an external program). All other commands, like `cat` or `ls`, call external programs to execute. Here is a list of the commands that have been implemented from scratch in this shell interface: 
+A command is considered built-in, when all the functionality is implemented within the shell (i.e. calls a function instead of relying on an external program). All other commands, like `cat` or `ls`, call external programs to execute. Here is a list of the commands that have been implemented from scratch in this shell interface: 
 
 - `echo` : Takes a string with spaces in between as an argument and prints string to the screen
 - `cd` : Takes a single argument that is a string path and sets it as the current working directory. 
